@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Travel Blog</title>
+  <!-- Include your CSS and JavaScript links here -->
+
+  <!-- Include Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gradient-to-r from-indigo-200 to-pink-200">
+    
+<div class="p-4"><h2 class="text-4xl font-bold dark:text-white text-center">BLOGS</h2></div>
+
+
+  <div class="min-h-screen flex flex-col justify-center items-center">
+    <div class="w-full max-w-3xl p-4 bg-gray-200 rounded-lg shadow-md">
+
+      <h2 class="text-2xl font-semibold text-center mb-4">Share Your Travel Experience</h2>
+
+      <!-- Text Input Box -->
+      <div class="mb-4">
+        <textarea class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+          placeholder="Write your travel experience here" rows="5"></textarea>
+      </div>
+
+      <div class="text-right mb-4">
+        <button
+          class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Submit</button>
+      </div>
+
+      <!-- Dummy Blog Cards -->
+      <h1 class="text-2xl">Read more travel experiences</h1>
+
+      <main>
+        <!--just a container-->
+        <div class="w-full sm:max-w-lg sm:mx-auto px-4">
+          
+          <!--whole card act as link-->
+          <a href="#">
+            <!--blog post card-->
+            <article class="overflow-hidden bg-white rounded shadow my-4">
+              <div class="sm:flex sm:flex-wrap">
+                <div class="sm:w-1/2 h-56 sm:h-auto relative">
+                  <img
+                    class="w-full h-full absolute inset-0 object-cover"
+                    src="https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"
+                    alt="image"
+                  >
+                </div>
+                <div class="sm:w-1/2 p-4">
+                  <!--post category-->
+                  <span
+                    class="uppercase tracking-wide inline-block px-2 rounded-full text-xs bg-gray-300 text-gray-600"
+                    >beaches</span
+                  >
+                  <!--post title-->
+                  <h4 class="text-lg font-semibold capitalize text-gray-800 mt-2">
+                    Top destinations you should travel includes...
+                  </h4>
+                  <!--post excerpt-->
+                  <p class="text-gray-700 mt-2">
+                    Lorem ipsum dolor sit amet conse ctetur adipis icing elit Delectus...
+                  </p>
+                  <!--post user info-->
+                  <div class="flex items-center mt-3">
+                    <img
+                      class="h-10 w-10 object-cover rounded"
+                      src="https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=60"
+                      alt="image">
+                    <div class="pl-3 text-sm text-gray-600">
+                      <p class="truncate">Neil Jafferson</p>
+                      <time>20 June, 2019</time>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </a>
+          
+          <!--card 2-->
+          <a href="#">
+            <!--blog post card-->
+            <article class="overflow-hidden bg-white rounded shadow my-4">
+              <div class="sm:flex sm:flex-wrap p-2">
+                <div class="sm:w-1/2 h-56 sm:h-auto relative">
+                  <img
+                    class="w-full h-full absolute inset-0 object-cover rounded"
+                    src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    alt="image"
+                  >
+                </div>
+                <div class="sm:w-1/2 p-2 sm:px-4">
+                  <!--post category-->
+                  <span
+                    class="uppercase tracking-wide inline-block px-2 rounded-full text-xs bg-gray-300 text-gray-600"
+                    >hostel</span
+                  >
+                  <!--post title-->
+                  <h4 class="text-lg capitalize font-semibold text-gray-800 mt-2">
+                    A visit to KIET Groups of Institutions Hostels...
+                  </h4>
+                  <!--post excerpt-->
+                  <p class="text-gray-700 mt-2">
+                    Lorem ipsum dolor sit amet consec tetur adipis icing elit Delectus...
+                  </p>
+                  <!--post user info-->
+                  <div class="flex items-center mt-3">
+                    <img
+                      class="h-10 w-10 object-cover rounded"
+                      src="https://images.unsplash.com/photo-1521117177129-ca6b2e68cb26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=60"
+                      alt="image">
+                    <div class="pl-3 text-sm text-gray-600">
+                      <p class="truncate">Emma Stone</p>
+                      <time>25 June, 2019</time>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </a>
+        </div>
+      </main>
+      
+      
+      
+        <!-- Add more dummy blog cards as needed -->
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Include your other scripts and content here -->
+
+</body>
+
+</html>
