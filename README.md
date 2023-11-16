@@ -1,14 +1,14 @@
 ### TEAM NAME - Greedy2Code
 
-### TEAM NO. - 6090
 
 ### PROJECT NAME - YOUR SAATHI ON THE GO
 
 ### TEAM MEMBERS - 
-1. Shreya  Sharma
-2. Sneha Singh
-3. Samiksha Gupta
-4. Vanshika Gupta
+1. Vanshika Gupta
+2. Shreya  Sharma
+3. Sneha Singh
+4. Samiksha Gupta
+
 
 
 
