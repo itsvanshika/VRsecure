@@ -3,11 +3,7 @@
 
 ### PROJECT NAME - YOUR SAATHI ON THE GO
 
-### TEAM MEMBERS - 
-1. Vanshika Gupta
-2. Shreya  Sharma
-3. Sneha Singh
-4. Samiksha Gupta
+
 
 
 
